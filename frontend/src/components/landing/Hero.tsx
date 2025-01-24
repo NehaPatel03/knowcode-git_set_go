@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-primary/10 via-accent/20 to-secondary/10">
       <div className="absolute inset-0 bg-grid-white/25 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]" />
-      <div className="container mx-auto px-4 py-20 relative">
+      <div className="container mx-auto px-4 py-20 relative mt-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-left">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight animate-fade-in">
