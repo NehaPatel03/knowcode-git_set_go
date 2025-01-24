@@ -18,7 +18,7 @@ const GetStarted = () => {
                 <div className="flex flex-col items-center text-center">
                   <Users className="w-16 h-16 text-primary mb-4 group-hover:scale-110 transition-transform" />
                   <h2 className="text-2xl font-semibold mb-2">Self Help Group</h2>
-                  <p className="text-gray-600">Join as a Self Help Group member</p>
+                  <p className="text-gray-600 text-[15px]">Join as a Self Help Group member</p>
                 </div>
               </div>
             </Link>
