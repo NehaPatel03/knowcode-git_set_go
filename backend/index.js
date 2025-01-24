@@ -1,119 +1,130 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { ArrowLeft } from "lucide-react";
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { validateEmail } from "../utils/helper.js";
+require("dotenv").config();
+const mongoose = require("mongoose");
+const config = require("./config.json");
+const bcrypt = require("bcrypt");
+const express = require("express");
+const cors = require("cors");
+const jwt = require("jsonwebtoken");
 
-const SignIn = () => {
-  const [email, setEmail] = useState("");
-  const [pass, setPass] = useState("");
-  const [error, setError] = useState(null);
-  const navigate = useNavigate();
+const SHGUser = require("./models/user.model");
+const app = express();
 
-  const handleSignIn = async (e) => {
-    e.preventDefault();
+// Middleware
+app.use(express.json());
+app.use(cors({ origin: "*" }));
 
-    if (!validateEmail(email)) {
-      setError("Please enter a valid email address.");
-      return;
+// MongoDB Connection
+mongoose.connect(config.connectionString, {
+  serverSelectionTimeoutMS: 5000 // Timeout after 5 seconds
+})
+  .then(() => console.log("Connected to MongoDB"))
+  .catch(err => {
+    console.error("MongoDB connection error:", err);
+    process.exit(1); // Exit process if unable to connect
+  });
+
+const db = mongoose.connection;
+
+db.on("error", console.error.bind(console, "MongoDB connection error:"));
+db.once("open", () => {
+  console.log("MongoDB database connection established successfully");
+});
+
+// Route to Create Account
+app.post("/create-account", async (req, res) => {
+  const { orgName, leadName, uid, members, loc, description, email, pass } = req.body;
+
+  // Validation: Ensure all fields are present
+  if (!orgName || !email || !pass || !leadName || !uid || !members || !loc || !description) {
+    return res.status(400).json({ error: true, message: "All fields are required" });
+  }
+
+  try {
+    // Check if user already exists
+    const isUser = await SHGUser.findOne({ email });
+    if (isUser) {
+      return res.status(400).json({ error: true, message: "User already exists" });
     }
 
-    if (!pass) {
-      setError("Password cannot be empty.");
-      return;
-    }
+    // Hash the password
+    const hashedPassword = await bcrypt.hash(pass, 10);
 
-    try {
-      const response = await fetch("http://localhost:5000/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, pass }),
-      });
+    // Create a new user
+    const newUser = new SHGUser({
+      orgName,
+      leadName,
+      uid,
+      members,
+      loc,
+      description,
+      email,
+      pass: hashedPassword
+    });
 
-      const data = await response.json();
+    // Save user to database
+    await newUser.save();
 
-      if (response.ok) {
-        // Store JWT token in localStorage or sessionStorage
-        localStorage.setItem("accessToken", data.accessToken);
+    // Generate JWT token
+    const accessToken = jwt.sign(
+      { userId: newUser._id },
+      process.env.ACCESS_TOKEN_SECRET,
+      { expiresIn: "72h" }
+    );
 
-        // Navigate to the dashboard
-        navigate("/dashboard");
-      } else {
-        // Handle API error
-        setError(data.message || "Login failed. Please try again.");
-      }
-    } catch (err) {
-      console.error("Error during login:", err);
-      setError("Something went wrong. Please try again later.");
-    }
-  };
+    return res.status(201).json({
+      error: false,
+      user: {
+        orgName: newUser.orgName,
+        leadName: newUser.leadName,
+        uid: newUser.uid,
+        members: newUser.members,
+        loc: newUser.loc,
+        description: newUser.description,
+        email: newUser.email
+      },
+      accessToken,
+      message: "Registration Successful"
+    });
+  } catch (error) {
+    console.error("Error creating account:", error);
+    return res.status(500).json({ error: true, message: "Internal Server Error" });
+  }
+});
+//Login
+app.post("/login", async (req, res) => {
+  const { email, pass } = req.body;
 
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 via-accent/20 to-secondary/10 relative">
-      {/* Back Button */}
-      <Link
-        to="/"
-        className="absolute top-6 left-6 inline-flex items-center text-primary hover:text-primary-light"
-      >
-        <ArrowLeft className="mr-2 h-4 w-4" />
-        Back to Home
-      </Link>
+  if (!email || !pass) {
+      return res.status(400).json({ message: "Email and Password required!" });
+  }
 
-      {/* Sign-In Card */}
-      <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8">
-        <h1 className="text-3xl font-bold text-center mb-8 text-primary">Sign In</h1>
-        <form className="space-y-6" onSubmit={handleSignIn}>
-          {/* Email Input */}
-          <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
-            <Input
-              id="email"
-              type="email"
-              placeholder="Enter your email"
-              className="w-full"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
+  const user = await SHGUser.findOne({ email });
+  if (!user) {
+      return res.status(400).json({ message: "User not found" });
+  }
 
-          {/* Password Input */}
-          <div className="space-y-2">
-            <Label htmlFor="password">Password</Label>
-            <Input
-              id="password"
-              type="password"
-              placeholder="Enter your password"
-              className="w-full"
-              value={pass}
-              onChange={(e) => setPass(e.target.value)}
-            />
-          </div>
+  const isPasswordValid = await bcrypt.compare(pass, user.pass);
+  if (!isPasswordValid) {
+      return res.status(400).json({ message: "Invalid Credentials" })
+  }
 
-          {/* Error Message */}
-          {error && <p className="text-red-500 text-sm">{error}</p>}
-
-          {/* Sign In Button */}
-          <div className="pt-4">
-            <Button className="w-full" type="submit">
-              Sign In
-            </Button>
-          </div>
-        </form>
-
-        {/* Footer */}
-        <p className="text-center mt-6 text-sm text-gray-600">
-          Don't have an account?{" "}
-          <Link to="/get-started" className="text-primary hover:underline">
-            Sign up
-          </Link>
-        </p>
-      </div>
-    </div>
+  const accessToken = jwt.sign(
+      { userId: user._id },
+      process.env.ACCESS_TOKEN_SECRET,
+      { expiresIn: "72h" }
   );
-};
 
-export default SignIn;
+  return res.status(201).json({
+      error: false,
+      user: { orgName: user.orgName, uid: user.uid, email: user.email },
+      accessToken,
+      message: "Login Successful"
+  });
+});
+
+// Start the server
+app.listen(5000, () => {
+  console.log("Server is running on port 5000");
+});
+
+module.exports = app;

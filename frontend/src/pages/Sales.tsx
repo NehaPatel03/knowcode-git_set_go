@@ -206,7 +206,7 @@ const Sales = () => {
 
         {/* Revenue Breakdown Section */}
         <section className="bg-white p-6 rounded-lg shadow-md">
-          <div className="flex justify-between items-center mb-6">
+          <div className="flex justify-center gap-40 items-center mb-6">
             <h2 className="text-xl font-bold">Revenue Breakdown</h2>
             <Tabs
               value={selectedPeriod}
