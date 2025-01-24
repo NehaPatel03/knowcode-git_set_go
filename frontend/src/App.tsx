@@ -4,6 +4,11 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import GetStarted from "./pages/GetStarted";
+import SHGSignup from "./pages/SHGSignup";
+
+import SignIn from "./pages/Signin";
+import CompanySignup from "./pages/CompanySignup";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +20,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/get-started" element={<GetStarted />} />
+          <Route path="/shg-signup" element={<SHGSignup />} />
+          <Route path="/company-signup" element={<CompanySignup/>} />
+          <Route path="/signin" element={<SignIn />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
