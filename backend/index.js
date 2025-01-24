@@ -1,31 +1,20 @@
-const express = require("express")
-const mongoose = require("mongoose")
-const cors = require("cors")
-require("dotenv").config()
+require("dotenv").config();
+const mongoose = require("mongoose");
+const config = require("./config.json");
+const bcrypt = require("bcrypt");
+const express = require("express");
+const cors = require("cors");
+const jwt = require("jsonwebtoken");
 
-const app = express()
-const PORT = process.env.PORT || 5000
+mongoose.connect(config.connectionString);
 
-// Middleware
-app.use(cors())
-app.use(express.json())
+const app = express();
+app.use(express.json());
+app.use(cors({origin: "*"}));
 
-// Connect to MongoDB
-mongoose
-  .connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error("MongoDB connection error:", err))
+app.post("/", async(req, res)=> {
+  return res.status(200).json("Api Running Well")
+});
 
-// Routes
-app.use("/api/products", require("./routes/products"))
-app.use("/api/consultants", require("./routes/consultants"))
-app.use("/api/sales", require("./routes/sales"))
-app.use("/api/dashboard", require("./routes/dashboard"))
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
-
+app.listen(5000);
+module.exports = app;
