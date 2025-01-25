@@ -5,17 +5,16 @@ const Hero = () => {
   return (
     <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-primary/10 via-accent/20 to-secondary/10">
       <div className="absolute inset-0 bg-grid-white/25 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))]" />
-      <div className="container mx-auto px-4 py-20 relative mt-16">
+      <div className="container mx-auto px-4 py-20 relative mt-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-left">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight animate-fade-in">
-              Beautiful Products & 
-              <span className="block text-primary">Sustainable</span>
-              Solutions.
+            Empowering SHGs
+              <span className="block text-primary">Bridging Opportunities</span>
+              for a Sustainable Future
             </h1>
             <p className="text-lg text-gray-600 max-w-xl animate-fade-in delay-100">
-              Connect with Self-Help Groups and discover a world of sustainable products. 
-              Our platform enables efficient inventory management and seamless bulk ordering.
+            Unlock the potential of your Self Help Group with Drishti , a B2B platform that connects Self Help Groups to companies, offering a seamless way to showcase products, access expert guidance, and streamline bulk ordering.
             </p>
             <div className="flex gap-4 animate-fade-in delay-200">
               <Button 
