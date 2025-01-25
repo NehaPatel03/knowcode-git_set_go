@@ -19,9 +19,9 @@ export const CompanyPageProfile = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [details, setDetails] = useState<CompanyDetails>({
     name: "Tech Solutions Ltd",
-    description: "Leading technology solutions provider",
+    description: "Leading Technology Solutions Provider",
     category: "Technology",
-    contactPerson: "John Doe",
+    contactPerson: "Sanjay Sharma",
   });
 
   const handleSave = (e: React.FormEvent<HTMLFormElement>) => {

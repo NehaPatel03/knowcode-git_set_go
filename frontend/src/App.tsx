@@ -24,6 +24,7 @@ import CompanyDashboard from "./pages/CompanyDashboard";
 import Orders from "./pages/Orders";
 import CompanyMessages from "./pages/CompanyMessages";
 import Partnership from "./pages/Partnership";
+import SchemePredictor from "./pages/SchemePredictor";
 
 const App = () => {
   const [queryClient] = useState(() => new QueryClient());
@@ -52,6 +53,7 @@ const App = () => {
             <Route path="/company-orders" element={<Orders/>} />
             <Route path="/company-messages" element={<CompanyMessages/>} />
             <Route path="/company-partnership" element={<Partnership/>} />
+            <Route path="/schemes" element={<SchemePredictor/>} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

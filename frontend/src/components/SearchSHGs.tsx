@@ -49,10 +49,7 @@ export const SearchSHGs = () => {
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm">
-      <div className="flex justify-between">
       <h2 className="text-xl font-semibold mb-6">Search SHGs</h2>
-      <Button>Reccomended SHGs</Button>
-      </div>
       
       <Input
         placeholder="Search by SHG name..."
@@ -74,7 +71,7 @@ export const SearchSHGs = () => {
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => navigate("/messages")}
+                    onClick={() => navigate("/company-messages")}
                   >
                     <MessageSquare className="w-4 h-4 mr-2" />
                     Chat
