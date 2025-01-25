@@ -21,6 +21,9 @@ import Company from "./pages/Company";
 import Dashboard from "./pages/Dashboard";
 import CompanySignIn from "./pages/CompanySignin";
 import CompanyDashboard from "./pages/CompanyDashboard";
+import Orders from "./pages/Orders";
+import CompanyMessages from "./pages/CompanyMessages";
+import Partnership from "./pages/Partnership";
 
 const App = () => {
   const [queryClient] = useState(() => new QueryClient());
@@ -46,6 +49,9 @@ const App = () => {
             <Route path="/signin" element={<SignIn />} />
             <Route path="/company-signin" element={<CompanySignIn/>} />
             <Route path="/company-dashboard" element={<CompanyDashboard/>} />
+            <Route path="/company-orders" element={<Orders/>} />
+            <Route path="/company-messages" element={<CompanyMessages/>} />
+            <Route path="/company-partnership" element={<Partnership/>} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

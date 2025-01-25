@@ -87,63 +87,6 @@ app.post("/create-account", async (req, res) => {
   }
 });
 
-// Route to Create Company User Account
-app.post("/company-create-account", async (req, res) => {
-  const { companyName, contactPerson, regiNo, loc, email, password } = req.body;
-
-  // Validation: Ensure all fields are present
-  if (!companyName || !email || !password || !contactPerson || !regiNo || !loc) {
-    return res.status(400).json({ error: true, message: "All fields are required" });
-  }
-
-  try {
-    // Check if company user already exists
-    const isUser = await CompanyUser.findOne({ email });
-    if (isUser) {
-      return res.status(400).json({ error: true, message: "User already exists" });
-    }
-
-    // Hash the password
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    // Create a new company user
-    const newUser = new CompanyUser({
-      companyName,
-      contactPerson,
-      regiNo,
-      loc,
-      email,
-      password: hashedPassword
-    });
-
-    // Save user to database
-    await newUser.save();
-
-    // Generate JWT token
-    const accessToken = jwt.sign(
-      { userId: newUser._id },
-      process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "72h" }
-    );
-
-    return res.status(201).json({
-      error: false,
-      user: {
-        companyName: newUser.companyName,
-        contactPerson: newUser.contactPerson,
-        regiNo: newUser.regiNo,
-        loc: newUser.loc,
-        email: newUser.email
-      },
-      accessToken,
-      message: "Registration Successful"
-    });
-  } catch (error) {
-    console.error("Error creating account:", error.message, error.stack);
-    return res.status(500).json({ error: true, message: "Internal Server Error" });
-}
-});
-
 // Login Route
 app.post("/login", async (req, res) => {
   const { email, pass } = req.body;
@@ -194,54 +137,6 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.post("/company-login", async (req, res) => {
-  const { email, password } = req.body;
-
-  if (!email || !password) {
-    return res.status(400).json({ error: true, message: "Email and Password are required" });
-  }
-
-  try {
-    // Check if the user exists in SHG users
-    let user = await CompanyUser.findOne({ email });
-
-    // If not found, check in company users
-    if (!user) {
-      user = await CompanyUser.findOne({ email });
-    }
-
-    if (!user) {
-      return res.status(400).json({ error: true, message: "User not found" });
-    }
-
-    // Verify password
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
-      return res.status(400).json({ error: true, message: "Invalid Credentials" });
-    }
-
-    // Generate JWT token
-    const accessToken = jwt.sign(
-      { userId: user._id },
-      process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "72h" }
-    );
-
-    return res.status(200).json({
-      error: false,
-      user: {
-        email: user.email,
-        ...(user.orgName && { orgName: user.orgName }),
-        ...(user.companyName && { companyName: user.companyName })
-      },
-      accessToken,
-      message: "Login Successful"
-    });
-  } catch (error) {
-    console.error("Error during login:", error);
-    return res.status(500).json({ error: true, message: "Internal Server Error" });
-  }
-});
 
 // Start the Server
 const PORT = process.env.PORT || 5000;

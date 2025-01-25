@@ -7,7 +7,7 @@ const CompanyUserSchema = new Schema({
     contactPerson: {type: String, required: true},
     loc: {type: String, required: true},
     email: {type:String, required: true, unique: true},
-    password: {type: String, required: true}
+    pass: {type: String, required: true}
 })
 
 module.exports = mongoose.model("CompanyUser", CompanyUserSchema);
