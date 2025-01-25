@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MessageSquare } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
-import { CompanySidebar } from "@/components/CompanySidebar";
+import { CompanySidebar } from "../components/CompanySidebar";
 
 interface Order {
   id: string;

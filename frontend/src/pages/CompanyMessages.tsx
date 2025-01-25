@@ -5,6 +5,7 @@ import { ChatInterface } from "@/components/ChatInterface";
 import { Card } from "@/components/ui/card";
 import { CompanySidebar } from "@/components/CompanySidebar";
 
+
 export interface Message {
   id: string;
   text: string;

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme Recommendation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Poppins", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D6BCFA;
+            color: #333;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left{
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top : 5px;
+            flex: 1;
+        }
+        .right {
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            flex: 1;
+            margin-top : 30px;
+            height: 60rem;
+        }
+
+        .scheme {
+            margin-bottom: 20px;
+        }
+
+        .scheme h3 {
+            color: #6C2EFC;
+            margin-bottom: 10px;
+        }
+
+        .scheme p {
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .scheme-box {
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="number"],
+        select {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input[type="number"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #8B5CF6;
+            box-shadow: 0 0 5px rgba(139, 92, 246, 0.3);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #8B5CF6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #6D28D9;
+        }
+
+        .recommendation {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #F3E8FF;
+            border: 2px solid #8B5CF6;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #6C2EFC;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        h1{
+            color:#8B5CF6;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #8B5CF6;
+        }
+        h3{
+            color:#8B5CF6;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .left, .right {
+                flex: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="scheme-box">
+                <h3>Weavers Support Scheme</h3>
+                <p><strong>Objective:</strong> To provide financial assistance, training, and raw materials to SHGs engaged in handloom activities.</p>
+                <p><strong>Eligibility:</strong> SHGs with a focus on handlooms, primarily women and marginalized communities like SC/ST.</p>
+                <p><strong>Benefits:</strong> Subsidized raw materials, weaving training, and access to government e-marketplace (GeM).</p>
+            </div>
+
+            <div class="scheme-box">
+                <h3>Craft Revival Scheme</h3>
+                <p><strong>Objective:</strong> To promote traditional handicrafts and empower artisans by offering design training, funding, and marketing support.</p>
+                <p><strong>Eligibility:</strong> SHGs operating in the handicrafts sector with a focus on rural artisans.</p>
+                <p><strong>Benefits:</strong> Grants for modern equipment, workshops, and exhibition opportunities.</p>
+            </div>
+
+            <div class="scheme-box">
+                <h3>Digital SHG Scheme</h3>
+                <p><strong>Objective:</strong> To digitally empower SHGs by providing technology training, digital marketing tools, and e-commerce platform access.</p>
+                <p><strong>Eligibility:</strong> SHGs in the technology sector or those willing to adopt digital tools in their operations.</p>
+                <p><strong>Benefits:</strong> Free training in digital skills, cloud storage for data management, and online sales portals.</p>
+            </div>
+
+            <div class="scheme-box">
+                <h3>Agro-Food Aid Scheme</h3>
+                <p><strong>Objective:</strong> To support SHGs in food processing and agriculture-related activities by offering subsidies and technical know-how.</p>
+                <p><strong>Eligibility:</strong> SHGs in food processing, agriculture, or agro-based industries.</p>
+                <p><strong>Benefits:</strong> Funding for equipment, cold storage facilities, and certification assistance (e.g., FSSAI).</p>
+            </div>
+
+            <div class="scheme-box">
+                <h3>Green Boost Scheme</h3>
+                <p><strong>Objective:</strong> To encourage sustainable agricultural practices and organic farming among SHGs.</p>
+                <p><strong>Eligibility:</strong> SHGs in agriculture focusing on eco-friendly and organic practices.</p>
+                <p><strong>Benefits:</strong> Subsidies for organic seeds, eco-certification, and training in sustainable farming methods.</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>SHG Scheme Recommendation</h1>
+            <p style="text-align: center; color: #555; font-size: 18px; margin-top: 10px;">Enter your details below to discover the best government schemes tailored for you.</p>
+            <form action="/" method="post">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Bihar">Bihar</option>
+                </select>
+
+                <label for="annual_income">Annual Income:</label>
+                <input type="number" id="annual_income" name="annual_income" required>
+
+                <label for="caste">Caste:</label>
+                <select name="caste" id="caste">
+                    <option value="SC">SC</option>
+                    <option value="General">General</option>
+                    <option value="OBC">OBC</option>
+                    <option value="ST">ST</option>
+                </select>
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Mixed">Mixed</option>
+                </select>
+
+                <label for="sector">Sector:</label>
+                <select name="sector" id="sector">
+                    <option value="Handlooms">Handlooms</option>
+                    <option value="Handicrafts">Handicrafts</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Food">Food</option>
+                    <option value="Agriculture">Agriculture</option>
+                </select>
+
+                <button type="submit">Get Recommendation</button>
+            </form>
+
+            {% if recommended_scheme %}
+            <div class="recommendation">
+                Recommended Scheme: {{ recommended_scheme }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

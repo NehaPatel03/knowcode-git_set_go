@@ -1,0 +1,501 @@
+AGE,STATE,ANNUAL_INCOME,CASTE,GENDER,SECTOR,SCHEME
+42,Rajasthan,167660,OBC,Mixed,Agriculture,Green Boost
+33,Karnataka,167977,ST,Female,Agriculture,Green Boost
+53,Maharashtra,462810,General,Mixed,Food,Agro-Food Aid
+54,Kerala,383588,OBC,Male,Technology,Digital SHG
+34,Punjab,208716,SC,Female,Agriculture,Green Boost
+26,Gujarat,358436,SC,Female,Handicrafts,Craft Revival
+52,Bihar,312951,ST,Mixed,Technology,Digital SHG
+35,Bihar,480419,ST,Male,Agriculture,Green Boost
+43,Tamil Nadu,273127,SC,Mixed,Food,Agro-Food Aid
+56,Karnataka,178147,ST,Male,Handlooms,Weavers Support
+39,Maharashtra,445181,ST,Female,Handlooms,Weavers Support
+53,Bihar,382864,ST,Female,Technology,Digital SHG
+20,Uttar Pradesh,317362,ST,Male,Agriculture,Digital SHG
+52,Maharashtra,144937,ST,Mixed,Agriculture,Agro-Food Aid
+41,Kerala,341116,General,Mixed,Handlooms,Weavers Support
+25,Rajasthan,463971,OBC,Male,Handlooms,Weavers Support
+28,Tamil Nadu,283427,OBC,Mixed,Handicrafts,Craft Revival
+25,Kerala,184179,ST,Male,Food,Agro-Food Aid
+42,Rajasthan,357335,OBC,Female,Agriculture,Green Boost
+57,Tamil Nadu,450219,ST,Male,Agriculture,Green Boost
+36,West Bengal,319387,SC,Female,Handicrafts,Craft Revival
+20,Maharashtra,155723,ST,Female,Agriculture,Digital SHG
+28,Maharashtra,453989,OBC,Female,Food,Agro-Food Aid
+55,Maharashtra,117689,OBC,Female,Agriculture,Agro-Food Aid
+26,Karnataka,234109,OBC,Male,Handlooms,Weavers Support
+56,Maharashtra,360988,General,Female,Food,Agro-Food Aid
+56,Kerala,458032,ST,Mixed,Handicrafts,Craft Revival
+45,Kerala,264661,OBC,Mixed,Handicrafts,Craft Revival
+32,West Bengal,326245,ST,Female,Handicrafts,Craft Revival
+20,Kerala,198802,ST,Female,Agriculture,Digital SHG
+57,Rajasthan,238444,SC,Mixed,Handlooms,Weavers Support
+35,Punjab,195910,OBC,Mixed,Handlooms,Weavers Support
+33,Karnataka,332425,ST,Male,Technology,Digital SHG
+45,Kerala,484906,General,Female,Technology,Digital SHG
+39,West Bengal,156866,ST,Mixed,Technology,Digital SHG
+31,West Bengal,264699,General,Female,Agriculture,Green Boost
+23,Maharashtra,474558,General,Mixed,Handlooms,Weavers Support
+54,Kerala,352549,General,Male,Technology,Digital SHG
+49,Gujarat,444647,OBC,Male,Agriculture,Green Boost
+41,Tamil Nadu,285287,ST,Mixed,Agriculture,Green Boost
+38,Uttar Pradesh,229372,OBC,Female,Technology,Digital SHG
+35,Bihar,110945,ST,Male,Technology,Digital SHG
+52,Maharashtra,431812,SC,Female,Technology,Digital SHG
+51,Uttar Pradesh,401551,ST,Female,Handlooms,Weavers Support
+60,Maharashtra,118029,General,Female,Technology,Digital SHG
+20,Kerala,250176,General,Female,Food,Agro-Food Aid
+39,Gujarat,271598,OBC,Female,Agriculture,Green Boost
+32,Rajasthan,436530,ST,Female,Agriculture,Green Boost
+23,Karnataka,286264,ST,Male,Food,Agro-Food Aid
+48,Rajasthan,166006,General,Female,Agriculture,Green Boost
+31,Karnataka,319867,ST,Mixed,Technology,Digital SHG
+40,Bihar,273883,OBC,Mixed,Technology,Digital SHG
+27,West Bengal,406896,OBC,Male,Agriculture,Digital SHG
+44,Bihar,152974,General,Mixed,Handlooms,Weavers Support
+23,Punjab,239850,OBC,Female,Handicrafts,Craft Revival
+21,Bihar,197300,ST,Female,Handlooms,Weavers Support
+51,Rajasthan,156335,SC,Male,Handicrafts,Craft Revival
+26,Kerala,357453,General,Female,Technology,Digital SHG
+52,Maharashtra,127504,General,Female,Food,Agro-Food Aid
+50,Maharashtra,110016,ST,Mixed,Handicrafts,Agro-Food Aid
+44,Tamil Nadu,88046,SC,Male,Handlooms,Agro-Food Aid
+57,Kerala,342505,OBC,Female,Handicrafts,Craft Revival
+25,Maharashtra,175499,General,Male,Food,Agro-Food Aid
+40,Punjab,360594,SC,Female,Handicrafts,Craft Revival
+43,Uttar Pradesh,458764,SC,Male,Food,Agro-Food Aid
+56,Bihar,104640,SC,Female,Food,Agro-Food Aid
+48,Tamil Nadu,211411,ST,Male,Agriculture,Green Boost
+22,Uttar Pradesh,85154,General,Female,Agriculture,Digital SHG
+51,Punjab,314828,ST,Male,Food,Agro-Food Aid
+36,Tamil Nadu,195692,General,Mixed,Agriculture,Green Boost
+40,Kerala,464280,General,Male,Handlooms,Weavers Support
+26,Tamil Nadu,230255,General,Male,Food,Agro-Food Aid
+20,Rajasthan,364450,ST,Mixed,Agriculture,Digital SHG
+40,Rajasthan,428237,General,Male,Handicrafts,Craft Revival
+36,West Bengal,170157,SC,Male,Agriculture,Green Boost
+31,Rajasthan,145698,OBC,Female,Agriculture,Agro-Food Aid
+39,Karnataka,394860,SC,Male,Food,Agro-Food Aid
+55,Kerala,447687,SC,Mixed,Technology,Digital SHG
+45,Kerala,300571,SC,Mixed,Food,Agro-Food Aid
+36,Gujarat,489623,SC,Female,Food,Agro-Food Aid
+47,Karnataka,397790,ST,Female,Handlooms,Weavers Support
+57,Gujarat,101946,ST,Mixed,Handlooms,Agro-Food Aid
+60,Punjab,148531,SC,Male,Food,Agro-Food Aid
+47,Uttar Pradesh,428631,OBC,Female,Agriculture,Green Boost
+25,Uttar Pradesh,223622,SC,Mixed,Handlooms,Weavers Support
+25,Tamil Nadu,369157,General,Male,Technology,Digital SHG
+27,Bihar,194207,General,Male,Handicrafts,Craft Revival
+32,Tamil Nadu,275097,ST,Mixed,Handicrafts,Craft Revival
+34,Kerala,286511,SC,Female,Agriculture,Green Boost
+34,Punjab,487760,General,Female,Agriculture,Green Boost
+50,West Bengal,486299,ST,Female,Food,Agro-Food Aid
+46,Gujarat,224799,General,Female,Handicrafts,Craft Revival
+49,Rajasthan,253108,OBC,Mixed,Handicrafts,Craft Revival
+48,Bihar,89945,OBC,Mixed,Handlooms,Agro-Food Aid
+52,Kerala,336308,General,Male,Food,Agro-Food Aid
+20,Maharashtra,447350,General,Mixed,Agriculture,Digital SHG
+55,Tamil Nadu,318193,OBC,Female,Food,Agro-Food Aid
+26,Kerala,119124,SC,Female,Agriculture,Digital SHG
+21,Uttar Pradesh,89219,General,Mixed,Agriculture,Digital SHG
+28,Rajasthan,300953,OBC,Female,Technology,Digital SHG
+57,Kerala,106647,General,Female,Food,Agro-Food Aid
+35,West Bengal,223379,SC,Female,Handlooms,Weavers Support
+31,Gujarat,441377,SC,Male,Handicrafts,Craft Revival
+52,Tamil Nadu,148923,ST,Male,Food,Agro-Food Aid
+26,Kerala,325390,ST,Mixed,Agriculture,Digital SHG
+31,Punjab,298684,ST,Male,Handicrafts,Craft Revival
+37,Uttar Pradesh,305848,SC,Male,Handlooms,Weavers Support
+45,Uttar Pradesh,378715,SC,Male,Agriculture,Green Boost
+58,Tamil Nadu,209253,SC,Female,Agriculture,Green Boost
+42,Gujarat,228103,ST,Mixed,Technology,Digital SHG
+49,Uttar Pradesh,110983,SC,Female,Technology,Digital SHG
+54,Tamil Nadu,214832,SC,Male,Technology,Digital SHG
+59,Bihar,324062,SC,Mixed,Food,Agro-Food Aid
+58,Tamil Nadu,122021,OBC,Mixed,Technology,Digital SHG
+57,Tamil Nadu,98948,SC,Mixed,Handicrafts,Agro-Food Aid
+48,Bihar,198918,OBC,Male,Technology,Digital SHG
+52,West Bengal,233247,ST,Mixed,Handlooms,Weavers Support
+45,Bihar,384591,OBC,Male,Agriculture,Green Boost
+20,Punjab,147133,General,Mixed,Handicrafts,Agro-Food Aid
+23,Tamil Nadu,286414,General,Male,Handicrafts,Craft Revival
+44,Karnataka,491564,ST,Mixed,Technology,Digital SHG
+47,Rajasthan,463271,SC,Mixed,Technology,Digital SHG
+56,Gujarat,392767,SC,Female,Food,Agro-Food Aid
+60,Tamil Nadu,157691,SC,Male,Food,Agro-Food Aid
+60,Bihar,180247,SC,Female,Technology,Digital SHG
+21,Bihar,452705,General,Female,Technology,Digital SHG
+21,Uttar Pradesh,453000,General,Male,Handicrafts,Craft Revival
+25,Rajasthan,178966,OBC,Mixed,Agriculture,Digital SHG
+50,Punjab,454065,SC,Mixed,Technology,Digital SHG
+35,Gujarat,125128,General,Male,Technology,Digital SHG
+57,West Bengal,109609,SC,Mixed,Technology,Digital SHG
+25,Punjab,204819,General,Female,Handlooms,Weavers Support
+53,Maharashtra,187166,ST,Mixed,Technology,Digital SHG
+26,Uttar Pradesh,142966,SC,Male,Technology,Digital SHG
+46,Uttar Pradesh,372360,OBC,Mixed,Handlooms,Weavers Support
+32,Kerala,214962,General,Male,Agriculture,Green Boost
+59,Punjab,146194,SC,Mixed,Food,Agro-Food Aid
+43,West Bengal,434489,SC,Female,Agriculture,Green Boost
+45,Kerala,163532,SC,Female,Agriculture,Green Boost
+50,Punjab,217257,OBC,Male,Food,Agro-Food Aid
+21,Tamil Nadu,137236,ST,Mixed,Technology,Digital SHG
+23,Maharashtra,478932,ST,Mixed,Handicrafts,Craft Revival
+28,Kerala,396301,OBC,Female,Handlooms,Weavers Support
+48,West Bengal,225375,General,Male,Technology,Digital SHG
+48,Karnataka,200799,SC,Female,Food,Agro-Food Aid
+28,Uttar Pradesh,300309,ST,Mixed,Handicrafts,Craft Revival
+33,Punjab,169587,General,Mixed,Food,Agro-Food Aid
+43,West Bengal,414676,OBC,Female,Technology,Digital SHG
+21,Gujarat,351503,ST,Female,Agriculture,Digital SHG
+30,Punjab,132222,OBC,Female,Food,Agro-Food Aid
+55,Karnataka,251247,ST,Mixed,Agriculture,Green Boost
+55,Maharashtra,327533,OBC,Male,Food,Agro-Food Aid
+24,Kerala,388271,OBC,Female,Agriculture,Digital SHG
+57,Bihar,457343,SC,Male,Technology,Digital SHG
+45,Karnataka,105286,SC,Male,Agriculture,Agro-Food Aid
+26,West Bengal,160136,OBC,Female,Technology,Digital SHG
+49,Karnataka,147089,ST,Female,Technology,Digital SHG
+38,West Bengal,367609,General,Female,Handlooms,Weavers Support
+33,West Bengal,221770,OBC,Mixed,Agriculture,Green Boost
+35,West Bengal,314548,ST,Female,Food,Agro-Food Aid
+58,Rajasthan,296950,ST,Mixed,Handlooms,Weavers Support
+37,Tamil Nadu,475123,General,Male,Agriculture,Green Boost
+44,Uttar Pradesh,172898,General,Male,Handlooms,Weavers Support
+28,Tamil Nadu,287670,ST,Male,Agriculture,Digital SHG
+57,Punjab,284937,ST,Female,Technology,Digital SHG
+54,Rajasthan,461855,SC,Male,Handicrafts,Craft Revival
+51,Tamil Nadu,354353,SC,Mixed,Technology,Digital SHG
+27,Tamil Nadu,321066,OBC,Female,Technology,Digital SHG
+27,Karnataka,120467,ST,Mixed,Handicrafts,Agro-Food Aid
+41,Maharashtra,314581,SC,Female,Food,Agro-Food Aid
+42,Kerala,192036,ST,Female,Technology,Digital SHG
+23,Uttar Pradesh,378060,OBC,Male,Handicrafts,Craft Revival
+45,Karnataka,125268,ST,Male,Handlooms,Agro-Food Aid
+28,Maharashtra,134039,SC,Male,Food,Agro-Food Aid
+26,Gujarat,438992,General,Male,Handicrafts,Craft Revival
+20,West Bengal,467233,SC,Male,Technology,Digital SHG
+33,Gujarat,132799,General,Mixed,Handicrafts,Agro-Food Aid
+25,Tamil Nadu,136503,OBC,Female,Agriculture,Digital SHG
+48,Gujarat,363946,General,Mixed,Technology,Digital SHG
+40,Tamil Nadu,214167,General,Female,Food,Agro-Food Aid
+27,Rajasthan,270263,General,Mixed,Technology,Digital SHG
+30,Uttar Pradesh,187201,SC,Mixed,Handlooms,Weavers Support
+37,Bihar,245016,SC,Male,Handicrafts,Craft Revival
+26,Punjab,452708,General,Male,Agriculture,Digital SHG
+20,Gujarat,286776,General,Mixed,Agriculture,Digital SHG
+54,Tamil Nadu,287170,ST,Female,Handicrafts,Craft Revival
+47,Tamil Nadu,330257,OBC,Mixed,Agriculture,Green Boost
+39,Gujarat,403754,General,Female,Handicrafts,Craft Revival
+42,Rajasthan,181201,General,Male,Handicrafts,Craft Revival
+32,Maharashtra,335080,OBC,Mixed,Handicrafts,Craft Revival
+60,Kerala,170822,ST,Male,Food,Agro-Food Aid
+56,Gujarat,340134,SC,Male,Handlooms,Weavers Support
+40,West Bengal,213959,OBC,Male,Handicrafts,Craft Revival
+22,Karnataka,135929,OBC,Mixed,Handicrafts,Agro-Food Aid
+24,Uttar Pradesh,478150,OBC,Female,Food,Agro-Food Aid
+31,Karnataka,395242,General,Mixed,Technology,Digital SHG
+56,Kerala,202802,SC,Male,Technology,Digital SHG
+21,Maharashtra,168884,OBC,Male,Handicrafts,Craft Revival
+42,Uttar Pradesh,427335,SC,Male,Handicrafts,Craft Revival
+60,Bihar,384941,SC,Mixed,Handicrafts,Craft Revival
+58,Gujarat,488846,ST,Mixed,Handlooms,Weavers Support
+41,Karnataka,82574,OBC,Mixed,Handicrafts,Agro-Food Aid
+28,Punjab,242656,OBC,Mixed,Food,Agro-Food Aid
+57,Kerala,499318,OBC,Female,Food,Agro-Food Aid
+50,West Bengal,434229,OBC,Mixed,Handicrafts,Craft Revival
+41,Maharashtra,316569,SC,Male,Handlooms,Weavers Support
+24,Karnataka,118469,SC,Male,Handicrafts,Agro-Food Aid
+43,Uttar Pradesh,304271,ST,Mixed,Handlooms,Weavers Support
+21,Maharashtra,208862,SC,Male,Food,Agro-Food Aid
+46,Bihar,309650,ST,Male,Handlooms,Weavers Support
+22,Tamil Nadu,320926,OBC,Mixed,Handicrafts,Craft Revival
+47,Gujarat,189649,OBC,Mixed,Technology,Digital SHG
+29,Karnataka,470763,OBC,Mixed,Handlooms,Weavers Support
+45,West Bengal,390455,SC,Female,Handicrafts,Craft Revival
+21,West Bengal,315045,ST,Male,Handlooms,Weavers Support
+39,West Bengal,364635,OBC,Female,Technology,Digital SHG
+48,Tamil Nadu,343359,OBC,Female,Agriculture,Green Boost
+43,Tamil Nadu,374874,General,Male,Agriculture,Green Boost
+58,Bihar,163087,SC,Mixed,Food,Agro-Food Aid
+37,Bihar,335524,General,Male,Agriculture,Green Boost
+48,Maharashtra,490160,OBC,Female,Technology,Digital SHG
+40,Gujarat,493455,ST,Female,Agriculture,Green Boost
+49,Uttar Pradesh,488258,SC,Female,Agriculture,Green Boost
+29,Uttar Pradesh,260158,ST,Male,Food,Agro-Food Aid
+42,Uttar Pradesh,390987,ST,Female,Agriculture,Green Boost
+49,Punjab,444786,General,Female,Technology,Digital SHG
+43,Bihar,447672,General,Male,Handicrafts,Craft Revival
+29,West Bengal,169280,OBC,Male,Technology,Digital SHG
+48,West Bengal,201097,SC,Male,Food,Agro-Food Aid
+29,West Bengal,353373,OBC,Male,Technology,Digital SHG
+30,Bihar,140938,SC,Male,Agriculture,Agro-Food Aid
+33,Rajasthan,489251,General,Female,Technology,Digital SHG
+24,Tamil Nadu,443794,SC,Mixed,Food,Agro-Food Aid
+51,Gujarat,307133,General,Female,Handicrafts,Craft Revival
+57,Punjab,211532,SC,Female,Handicrafts,Craft Revival
+59,Maharashtra,486948,General,Male,Technology,Digital SHG
+52,Maharashtra,215564,SC,Female,Food,Agro-Food Aid
+50,Karnataka,482419,ST,Male,Handicrafts,Craft Revival
+39,West Bengal,406848,SC,Male,Food,Agro-Food Aid
+43,Gujarat,87758,ST,Mixed,Handicrafts,Agro-Food Aid
+56,Gujarat,80686,SC,Male,Agriculture,Agro-Food Aid
+31,Uttar Pradesh,433438,ST,Male,Agriculture,Green Boost
+43,Maharashtra,99719,ST,Mixed,Agriculture,Agro-Food Aid
+35,Bihar,435699,ST,Male,Technology,Digital SHG
+42,Karnataka,203829,ST,Mixed,Handicrafts,Craft Revival
+22,Bihar,313020,ST,Male,Agriculture,Digital SHG
+50,Punjab,294307,ST,Mixed,Handicrafts,Craft Revival
+26,Tamil Nadu,249114,SC,Female,Handicrafts,Craft Revival
+31,Bihar,414967,OBC,Female,Agriculture,Green Boost
+47,Gujarat,143890,General,Male,Handicrafts,Agro-Food Aid
+52,West Bengal,448155,General,Female,Agriculture,Green Boost
+52,Punjab,339705,OBC,Mixed,Technology,Digital SHG
+25,Maharashtra,395418,ST,Female,Handlooms,Weavers Support
+44,Karnataka,125423,ST,Female,Handlooms,Agro-Food Aid
+39,Bihar,427130,ST,Female,Food,Agro-Food Aid
+44,Maharashtra,139134,General,Mixed,Handicrafts,Agro-Food Aid
+25,Karnataka,442854,SC,Female,Agriculture,Digital SHG
+52,Uttar Pradesh,411040,ST,Female,Technology,Digital SHG
+48,Kerala,273428,ST,Mixed,Handicrafts,Craft Revival
+52,Rajasthan,214914,General,Mixed,Technology,Digital SHG
+35,Uttar Pradesh,434077,ST,Female,Technology,Digital SHG
+51,Gujarat,174069,SC,Mixed,Handicrafts,Craft Revival
+23,Gujarat,363231,ST,Mixed,Food,Agro-Food Aid
+20,Karnataka,221324,SC,Male,Agriculture,Digital SHG
+39,Rajasthan,195109,General,Male,Agriculture,Green Boost
+42,Tamil Nadu,170435,OBC,Male,Food,Agro-Food Aid
+37,Punjab,296193,ST,Mixed,Agriculture,Green Boost
+44,Karnataka,425277,General,Female,Handicrafts,Craft Revival
+33,Bihar,425949,General,Mixed,Technology,Digital SHG
+55,West Bengal,159845,OBC,Mixed,Technology,Digital SHG
+54,Punjab,115479,SC,Male,Handicrafts,Agro-Food Aid
+50,West Bengal,492650,SC,Female,Handlooms,Weavers Support
+45,Gujarat,406411,General,Male,Handicrafts,Craft Revival
+32,Maharashtra,355962,SC,Female,Handlooms,Weavers Support
+27,Karnataka,102082,SC,Female,Handicrafts,Agro-Food Aid
+52,Maharashtra,288308,SC,Male,Agriculture,Green Boost
+24,Bihar,129827,ST,Male,Handlooms,Agro-Food Aid
+34,Karnataka,180650,ST,Mixed,Technology,Digital SHG
+58,Kerala,130129,SC,Male,Handlooms,Agro-Food Aid
+44,Uttar Pradesh,170873,ST,Male,Agriculture,Green Boost
+48,West Bengal,165621,General,Female,Handlooms,Weavers Support
+24,Punjab,342764,OBC,Mixed,Handlooms,Weavers Support
+32,Tamil Nadu,177765,ST,Female,Handicrafts,Craft Revival
+30,Tamil Nadu,361954,General,Mixed,Handicrafts,Craft Revival
+34,Maharashtra,183565,General,Mixed,Handlooms,Weavers Support
+59,Gujarat,215232,OBC,Female,Handicrafts,Craft Revival
+35,Maharashtra,246498,General,Male,Handicrafts,Craft Revival
+29,Bihar,151890,OBC,Male,Agriculture,Digital SHG
+33,Gujarat,319825,SC,Male,Handicrafts,Craft Revival
+29,Gujarat,91293,ST,Male,Handicrafts,Agro-Food Aid
+54,Rajasthan,102614,OBC,Female,Agriculture,Agro-Food Aid
+42,Uttar Pradesh,223353,OBC,Male,Technology,Digital SHG
+42,Bihar,198044,OBC,Mixed,Handicrafts,Craft Revival
+26,Kerala,345997,ST,Female,Handlooms,Weavers Support
+53,Rajasthan,163377,ST,Male,Handlooms,Weavers Support
+52,Maharashtra,300912,OBC,Male,Handicrafts,Craft Revival
+25,Punjab,491038,General,Mixed,Handlooms,Weavers Support
+38,Kerala,453770,OBC,Mixed,Handicrafts,Craft Revival
+32,Bihar,464804,General,Male,Food,Agro-Food Aid
+36,Kerala,310510,SC,Mixed,Technology,Digital SHG
+43,Bihar,445251,General,Male,Food,Agro-Food Aid
+48,Bihar,403260,ST,Female,Handlooms,Weavers Support
+57,Kerala,200633,ST,Mixed,Food,Agro-Food Aid
+22,Uttar Pradesh,145296,SC,Male,Food,Agro-Food Aid
+53,Uttar Pradesh,412955,SC,Mixed,Food,Agro-Food Aid
+23,Karnataka,422513,OBC,Female,Technology,Digital SHG
+26,West Bengal,314189,ST,Female,Agriculture,Digital SHG
+58,Maharashtra,487603,General,Male,Food,Agro-Food Aid
+22,West Bengal,477015,SC,Mixed,Food,Agro-Food Aid
+47,Kerala,188860,OBC,Male,Technology,Digital SHG
+49,Kerala,483152,General,Male,Handicrafts,Craft Revival
+40,West Bengal,151253,General,Male,Technology,Digital SHG
+43,Bihar,235437,SC,Mixed,Handicrafts,Craft Revival
+20,Uttar Pradesh,188427,General,Mixed,Technology,Digital SHG
+37,West Bengal,102488,OBC,Female,Food,Agro-Food Aid
+43,Gujarat,135923,SC,Mixed,Technology,Digital SHG
+23,Tamil Nadu,196950,OBC,Mixed,Agriculture,Digital SHG
+37,Punjab,166716,ST,Female,Technology,Digital SHG
+40,Rajasthan,269440,ST,Male,Food,Agro-Food Aid
+46,Uttar Pradesh,431375,SC,Female,Technology,Digital SHG
+58,West Bengal,176654,OBC,Female,Handicrafts,Craft Revival
+33,Gujarat,160016,OBC,Male,Technology,Digital SHG
+35,Maharashtra,436414,SC,Female,Agriculture,Green Boost
+36,Rajasthan,107894,ST,Female,Handicrafts,Agro-Food Aid
+37,Tamil Nadu,230423,General,Mixed,Handlooms,Weavers Support
+46,Maharashtra,398220,General,Female,Technology,Digital SHG
+55,Punjab,323720,ST,Female,Technology,Digital SHG
+57,Tamil Nadu,152682,General,Male,Food,Agro-Food Aid
+29,Rajasthan,286995,OBC,Female,Food,Agro-Food Aid
+52,Uttar Pradesh,297472,General,Male,Agriculture,Green Boost
+44,Bihar,325720,SC,Female,Handlooms,Weavers Support
+47,Punjab,187177,OBC,Mixed,Agriculture,Green Boost
+34,Maharashtra,266591,OBC,Female,Handlooms,Weavers Support
+26,Bihar,404610,ST,Mixed,Technology,Digital SHG
+31,Bihar,396882,SC,Female,Handlooms,Weavers Support
+47,Bihar,409093,ST,Female,Agriculture,Green Boost
+47,Gujarat,129697,ST,Male,Agriculture,Agro-Food Aid
+21,Punjab,137774,OBC,Male,Food,Agro-Food Aid
+47,Karnataka,94403,SC,Male,Agriculture,Agro-Food Aid
+44,Rajasthan,243746,General,Female,Agriculture,Green Boost
+45,West Bengal,200397,SC,Mixed,Handicrafts,Craft Revival
+35,Tamil Nadu,244141,SC,Male,Handicrafts,Craft Revival
+55,Kerala,177029,ST,Male,Agriculture,Green Boost
+49,Karnataka,409271,General,Male,Handicrafts,Craft Revival
+36,Punjab,165097,OBC,Mixed,Food,Agro-Food Aid
+44,Bihar,289382,OBC,Mixed,Agriculture,Green Boost
+60,Bihar,387275,SC,Female,Food,Agro-Food Aid
+34,Bihar,398812,ST,Male,Food,Agro-Food Aid
+21,Kerala,152093,OBC,Female,Handlooms,Weavers Support
+33,West Bengal,338876,OBC,Female,Technology,Digital SHG
+38,Uttar Pradesh,270661,OBC,Mixed,Handlooms,Weavers Support
+49,Punjab,260525,SC,Male,Agriculture,Green Boost
+23,Uttar Pradesh,299917,General,Mixed,Technology,Digital SHG
+35,Uttar Pradesh,95728,OBC,Male,Food,Agro-Food Aid
+26,Punjab,149584,SC,Mixed,Technology,Digital SHG
+41,Uttar Pradesh,225390,OBC,Mixed,Food,Agro-Food Aid
+35,Rajasthan,309360,SC,Mixed,Food,Agro-Food Aid
+31,Bihar,263191,OBC,Male,Technology,Digital SHG
+45,Karnataka,458311,General,Female,Agriculture,Green Boost
+55,Punjab,439964,General,Mixed,Food,Agro-Food Aid
+48,Gujarat,253298,ST,Male,Agriculture,Green Boost
+30,Maharashtra,468325,ST,Female,Handicrafts,Craft Revival
+50,Rajasthan,475578,ST,Male,Handicrafts,Craft Revival
+20,Punjab,347401,General,Female,Handicrafts,Craft Revival
+32,Tamil Nadu,428812,OBC,Male,Agriculture,Green Boost
+20,Kerala,193058,SC,Male,Food,Agro-Food Aid
+32,Bihar,479264,ST,Male,Food,Agro-Food Aid
+30,Maharashtra,402488,SC,Mixed,Food,Agro-Food Aid
+51,Gujarat,495923,ST,Male,Handicrafts,Craft Revival
+21,Tamil Nadu,432593,SC,Male,Handicrafts,Craft Revival
+35,West Bengal,131585,OBC,Male,Food,Agro-Food Aid
+22,Tamil Nadu,304704,ST,Female,Agriculture,Digital SHG
+59,Punjab,495388,ST,Female,Handicrafts,Craft Revival
+55,Punjab,436209,OBC,Male,Agriculture,Green Boost
+36,Punjab,202950,SC,Female,Agriculture,Green Boost
+33,Karnataka,426091,ST,Male,Technology,Digital SHG
+23,Gujarat,294058,ST,Mixed,Handicrafts,Craft Revival
+37,Maharashtra,430421,General,Female,Technology,Digital SHG
+40,West Bengal,245317,ST,Mixed,Agriculture,Green Boost
+26,Maharashtra,297603,SC,Female,Agriculture,Digital SHG
+36,Tamil Nadu,177476,SC,Female,Technology,Digital SHG
+54,Gujarat,174191,OBC,Mixed,Agriculture,Green Boost
+44,Tamil Nadu,128797,OBC,Male,Food,Agro-Food Aid
+32,Rajasthan,181522,SC,Male,Food,Agro-Food Aid
+45,Karnataka,428229,General,Female,Technology,Digital SHG
+24,Karnataka,100552,SC,Female,Handicrafts,Agro-Food Aid
+46,Uttar Pradesh,198057,SC,Female,Handicrafts,Craft Revival
+43,Rajasthan,331147,ST,Female,Technology,Digital SHG
+41,Tamil Nadu,277081,SC,Female,Handicrafts,Craft Revival
+47,West Bengal,364235,ST,Mixed,Agriculture,Green Boost
+58,Maharashtra,301614,SC,Mixed,Food,Agro-Food Aid
+38,Punjab,419764,SC,Male,Technology,Digital SHG
+59,Tamil Nadu,286240,General,Male,Handicrafts,Craft Revival
+27,Gujarat,201410,OBC,Male,Food,Agro-Food Aid
+59,Kerala,475909,SC,Mixed,Agriculture,Green Boost
+42,Punjab,484329,OBC,Mixed,Handlooms,Weavers Support
+52,West Bengal,389167,SC,Mixed,Agriculture,Green Boost
+27,Maharashtra,118633,ST,Mixed,Agriculture,Digital SHG
+39,West Bengal,274522,ST,Female,Food,Agro-Food Aid
+38,Gujarat,208758,ST,Female,Handlooms,Weavers Support
+27,Tamil Nadu,361269,SC,Male,Food,Agro-Food Aid
+20,Maharashtra,258980,General,Male,Handicrafts,Craft Revival
+37,Maharashtra,487035,SC,Mixed,Handlooms,Weavers Support
+58,Uttar Pradesh,137684,General,Female,Handicrafts,Agro-Food Aid
+54,West Bengal,422781,ST,Male,Agriculture,Green Boost
+50,Gujarat,240468,General,Mixed,Technology,Digital SHG
+33,Karnataka,394275,ST,Mixed,Handlooms,Weavers Support
+27,Uttar Pradesh,419159,SC,Male,Handicrafts,Craft Revival
+35,Maharashtra,218851,SC,Male,Technology,Digital SHG
+35,West Bengal,391019,OBC,Male,Handlooms,Weavers Support
+48,Kerala,331617,ST,Male,Food,Agro-Food Aid
+26,Rajasthan,112687,ST,Mixed,Handicrafts,Agro-Food Aid
+33,Kerala,415289,OBC,Male,Agriculture,Green Boost
+32,Uttar Pradesh,194613,OBC,Mixed,Handlooms,Weavers Support
+47,Uttar Pradesh,359659,OBC,Male,Handicrafts,Craft Revival
+30,Punjab,87468,ST,Mixed,Agriculture,Agro-Food Aid
+47,Tamil Nadu,309490,OBC,Male,Food,Agro-Food Aid
+41,Uttar Pradesh,368380,General,Male,Agriculture,Green Boost
+26,Gujarat,442455,OBC,Male,Handicrafts,Craft Revival
+51,Gujarat,141067,ST,Mixed,Agriculture,Agro-Food Aid
+20,West Bengal,241992,General,Male,Handlooms,Weavers Support
+21,Bihar,405564,General,Female,Handicrafts,Craft Revival
+28,Kerala,334832,ST,Female,Food,Agro-Food Aid
+45,West Bengal,164461,General,Male,Food,Agro-Food Aid
+50,Karnataka,301416,SC,Mixed,Agriculture,Green Boost
+22,Gujarat,224391,General,Male,Technology,Digital SHG
+24,Kerala,319822,General,Mixed,Food,Agro-Food Aid
+33,Punjab,472664,SC,Male,Handlooms,Weavers Support
+50,West Bengal,242445,OBC,Male,Handlooms,Weavers Support
+58,Karnataka,402705,ST,Male,Handicrafts,Craft Revival
+39,Bihar,304900,SC,Mixed,Technology,Digital SHG
+24,Uttar Pradesh,445668,SC,Male,Handlooms,Weavers Support
+38,Gujarat,443486,SC,Mixed,Agriculture,Green Boost
+29,Punjab,466292,General,Female,Technology,Digital SHG
+59,West Bengal,389275,General,Mixed,Handlooms,Weavers Support
+33,Karnataka,396893,General,Mixed,Technology,Digital SHG
+23,Punjab,300224,SC,Female,Agriculture,Digital SHG
+22,Kerala,214398,SC,Male,Handicrafts,Craft Revival
+28,Uttar Pradesh,91173,ST,Female,Handlooms,Agro-Food Aid
+50,Kerala,279380,OBC,Male,Handlooms,Weavers Support
+38,West Bengal,372205,OBC,Male,Handicrafts,Craft Revival
+28,Rajasthan,166386,SC,Female,Handlooms,Weavers Support
+48,Punjab,238853,SC,Mixed,Agriculture,Green Boost
+55,Gujarat,339289,OBC,Female,Handicrafts,Craft Revival
+51,West Bengal,269662,ST,Male,Handicrafts,Craft Revival
+41,Punjab,89180,General,Male,Food,Agro-Food Aid
+32,Karnataka,391839,General,Mixed,Handicrafts,Craft Revival
+28,Tamil Nadu,202658,OBC,Mixed,Handicrafts,Craft Revival
+29,Karnataka,405008,General,Mixed,Agriculture,Digital SHG
+38,Tamil Nadu,104244,SC,Mixed,Handlooms,Agro-Food Aid
+46,Kerala,135852,SC,Female,Technology,Digital SHG
+24,Rajasthan,361304,General,Female,Technology,Digital SHG
+46,Kerala,339033,SC,Male,Agriculture,Green Boost
+56,Gujarat,374415,OBC,Mixed,Handicrafts,Craft Revival
+33,Karnataka,216853,General,Mixed,Handicrafts,Craft Revival
+46,West Bengal,497247,ST,Male,Handicrafts,Craft Revival
+25,Gujarat,378051,ST,Female,Technology,Digital SHG
+52,Rajasthan,150311,ST,Female,Food,Agro-Food Aid
+23,Uttar Pradesh,177408,General,Female,Food,Agro-Food Aid
+30,Karnataka,428233,General,Mixed,Technology,Digital SHG
+44,Karnataka,231134,General,Male,Food,Agro-Food Aid
+37,Rajasthan,450624,OBC,Female,Handicrafts,Craft Revival
+51,Karnataka,200715,SC,Mixed,Technology,Digital SHG
+39,Tamil Nadu,138699,OBC,Female,Handicrafts,Agro-Food Aid
+46,Kerala,111454,SC,Female,Handicrafts,Agro-Food Aid
+30,Uttar Pradesh,445159,General,Mixed,Handlooms,Weavers Support
+59,Rajasthan,116615,SC,Male,Food,Agro-Food Aid
+58,Tamil Nadu,294677,SC,Mixed,Handicrafts,Craft Revival
+31,Bihar,351711,ST,Mixed,Handicrafts,Craft Revival
+21,Uttar Pradesh,221942,General,Male,Agriculture,Digital SHG
+60,Karnataka,128896,OBC,Mixed,Technology,Digital SHG
+57,Karnataka,200950,ST,Male,Food,Agro-Food Aid
+52,Kerala,204049,General,Mixed,Handicrafts,Craft Revival
+27,Bihar,369109,ST,Mixed,Handicrafts,Craft Revival
+30,Punjab,232792,ST,Female,Handicrafts,Craft Revival
+22,Maharashtra,212748,SC,Mixed,Food,Agro-Food Aid
+36,Punjab,454850,OBC,Female,Handicrafts,Craft Revival
+58,Rajasthan,491748,General,Female,Handlooms,Weavers Support
+24,Uttar Pradesh,207848,OBC,Mixed,Food,Agro-Food Aid
+31,Punjab,304361,ST,Mixed,Technology,Digital SHG
+20,Kerala,202479,General,Female,Agriculture,Digital SHG
+21,Rajasthan,172199,OBC,Female,Handlooms,Weavers Support
+33,West Bengal,417904,SC,Mixed,Handicrafts,Craft Revival
+54,Karnataka,423496,OBC,Mixed,Food,Agro-Food Aid
+59,Uttar Pradesh,251968,OBC,Female,Food,Agro-Food Aid
+48,Punjab,124118,SC,Male,Food,Agro-Food Aid
+43,Kerala,487225,OBC,Mixed,Handlooms,Weavers Support
+34,West Bengal,371358,OBC,Male,Agriculture,Green Boost
+44,Kerala,473009,ST,Male,Agriculture,Green Boost
+44,Karnataka,153616,General,Male,Technology,Digital SHG
+59,Uttar Pradesh,180585,SC,Female,Food,Agro-Food Aid
+47,Uttar Pradesh,289330,OBC,Female,Food,Agro-Food Aid
+59,Uttar Pradesh,110191,OBC,Female,Handicrafts,Agro-Food Aid
+27,Uttar Pradesh,273777,SC,Mixed,Agriculture,Digital SHG
+29,Rajasthan,309894,ST,Mixed,Agriculture,Digital SHG
+37,Rajasthan,227100,OBC,Female,Food,Agro-Food Aid
+57,Tamil Nadu,478961,ST,Female,Technology,Digital SHG
+24,Maharashtra,387113,SC,Male,Agriculture,Digital SHG
+48,Gujarat,475067,General,Female,Handlooms,Weavers Support
+34,Bihar,319100,SC,Male,Agriculture,Green Boost

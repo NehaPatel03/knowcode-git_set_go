@@ -29,7 +29,7 @@ const CompanySignIn = () => {
                             type="submit"
                         >
                             <Link to="/company-dashboard">
-                                Sign Up
+                                Sign in
                             </Link>
                         </Button>
                     </form>

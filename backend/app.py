@@ -1,51 +1,40 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS  # Import Flask-CORS
+from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 import pickle
-import numpy as np
-
-# Load model, scaler, and label encoders
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
-
-with open('scaler.pkl', 'rb') as f:
-    scaler = pickle.load(f)
-
-with open('label_encoders.pkl', 'rb') as f:
-    label_encoders = pickle.load(f)
+import pandas as pd
 
 app = Flask(__name__)
 
-# Enable CORS for all routes
+# Enable CORS
 CORS(app)
 
-@app.route('/predict', methods=['POST'])
+# Load the ML model, scaler, and encoders
+model = pickle.load(open("model.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl", "rb"))
+label_encoders = pickle.load(open("label_encoders.pkl", "rb"))
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/predict", methods=["POST"])
 def predict():
     try:
-        # Parse JSON request data
+        # Parse JSON input
         data = request.json
-        age = int(data['age'])
-        state = label_encoders['STATE'].transform([data['state']])[0]
-        annual_income = int(data['annual_income'])
-        caste = label_encoders['CASTE'].transform([data['caste']])[0]
-        gender = label_encoders['GENDER'].transform([data['gender']])[0]
-        sector = label_encoders['SECTOR'].transform([data['sector']])[0]
+        input_data = pd.DataFrame([data])
 
-        # Standardize numerical inputs
-        scaled_features = scaler.transform([[age, annual_income]])[0]
-
-        # Combine all features for the model
-        features = np.hstack([scaled_features, state, caste, gender, sector])
-        features = features.reshape(1, -1)
+        # Preprocess input data
+        for column, encoder in label_encoders.items():
+            input_data[column] = encoder.transform(input_data[column])
+        scaled_data = scaler.transform(input_data)
 
         # Make prediction
-        prediction = model.predict(features)[0]
+        prediction = model.predict(scaled_data)
+        return jsonify({"prediction": prediction[0]})
 
-        # Return prediction as JSON
-        return jsonify({"recommended_scheme": prediction})
     except Exception as e:
-        # Return the error message in the response
         return jsonify({"error": str(e)}), 400
 
-if __name__ == '__main__':
-    # Enable debug mode and run the app
+if __name__ == "__main__":
     app.run(debug=True)
