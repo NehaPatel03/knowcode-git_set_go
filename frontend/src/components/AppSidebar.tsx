@@ -1,6 +1,7 @@
-import { Home, MessageSquare, ShoppingBag, LineChart, UserCircle, Package, Menu, List} from "lucide-react";
+import { Home, MessageSquare, ShoppingBag, LineChart, UserCircle, Package, Menu, List, LogOut} from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Button } from "./ui/button";
 
 const AppSidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -62,6 +63,13 @@ const AppSidebar = () => {
               ))}
             </ul>
           </nav>
+          <div className="p-4 border-t">
+                <Link to="/" >
+                    <Button variant="ghost" className="w-full justify-start gap-2 text-red-500 hover:text-red-600">
+                        <LogOut className="w-4 h-4" />
+                        Sign Out
+                    </Button></Link>
+            </div>
         </div>
       </div>
     </>

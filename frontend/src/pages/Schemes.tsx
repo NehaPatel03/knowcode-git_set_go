@@ -41,16 +41,28 @@ const Schemes: React.FC = () => {
           <p><strong>Benefits:</strong> Subsidized raw materials, weaving training, and access to government e-marketplace (GeM).</p>
         </div>
         <div className="bg-white shadow-lg rounded-xl p-6">
-          <h3 className="text-purple-600 font-bold text-lg mb-2">Weavers Support Scheme</h3>
-          <p><strong>Objective:</strong> To provide financial assistance, training, and raw materials to SHGs engaged in handloom activities.</p>
-          <p><strong>Eligibility:</strong> SHGs with a focus on handlooms, primarily women and marginalized communities like SC/ST.</p>
-          <p><strong>Benefits:</strong> Subsidized raw materials, weaving training, and access to government e-marketplace (GeM).</p>
+          <h3 className="text-purple-600 font-bold text-lg mb-2">Craft Revival Scheme</h3>
+          <p><strong>Objective:</strong> To promote traditional handicrafts and empower artisans by offering design training, funding, and marketing support.</p>
+          <p><strong>Eligibility:</strong> SHGs operating in the handicrafts sector with a focus on rural artisans.</p>
+          <p><strong>Benefits:</strong> Grants for modern equipment, workshops, and exhibition opportunities.</p>
         </div>
         <div className="bg-white shadow-lg rounded-xl p-6">
-          <h3 className="text-purple-600 font-bold text-lg mb-2">Weavers Support Scheme</h3>
-          <p><strong>Objective:</strong> To provide financial assistance, training, and raw materials to SHGs engaged in handloom activities.</p>
-          <p><strong>Eligibility:</strong> SHGs with a focus on handlooms, primarily women and marginalized communities like SC/ST.</p>
-          <p><strong>Benefits:</strong> Subsidized raw materials, weaving training, and access to government e-marketplace (GeM).</p>
+          <h3 className="text-purple-600 font-bold text-lg mb-2">Digital SHG Scheme</h3>
+          <p><strong>Objective:</strong> To digitally empower SHGs by providing technology training, digital marketing tools, and e-commerce platform access.</p>
+          <p><strong>Eligibility:</strong> SHGs in the technology sector or those willing to adopt digital tools in their operations.</p>
+          <p><strong>Benefits:</strong> Free training in digital skills, cloud storage for data management, and online sales portals.</p>
+        </div>
+        <div className="bg-white shadow-lg rounded-xl p-6">
+          <h3 className="text-purple-600 font-bold text-lg mb-2">Agro-Food Aid Scheme</h3>
+          <p><strong>Objective:</strong> To support SHGs in food processing and agriculture-related activities by offering subsidies and technical know-how.</p>
+          <p><strong>Eligibility:</strong> SHGs in food processing, agriculture, or agro-based industries.</p>
+          <p><strong>Benefits:</strong> Funding for equipment, cold storage facilities, and certification assistance (e.g., FSSAI).</p>
+        </div>
+        <div className="bg-white shadow-lg rounded-xl p-6">
+          <h3 className="text-purple-600 font-bold text-lg mb-2">Green Boost Scheme</h3>
+          <p><strong>Objective:</strong> To encourage sustainable agricultural practices and organic farming among SHGs.</p>
+          <p><strong>Eligibility:</strong>SHGs in agriculture focusing on eco-friendly and organic practices.</p>
+          <p><strong>Benefits:</strong> Subsidies for organic seeds, eco-certification, and training in sustainable farming methods.</p>
         </div>
       </div>
 
