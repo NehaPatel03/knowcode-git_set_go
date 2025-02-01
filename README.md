@@ -2,9 +2,6 @@
 
 ## Unlock the potential of your Self Help Group with Drishti , a B2B platform that connects Self Help Groups to companies, offering a seamless way to showcase products, access expert guidance, and streamline bulk ordering.
 
-
-Unlock the potential of your Self-Help Group with Drishti, a B2B platform that connects SHGs to companies, offering a seamless way to showcase products, access expert guidance, and streamline product listing.
-
 ---
 
 ## Table of Contents
